@@ -14,3 +14,4 @@ schedules:
 permissions:
   - read: ["AGENTS.md", "SOUL.md", "IDENTITY.md", "USER.md", "memory/*.md", "HEARTBEAT.md"]
   - write: ["MEMORY.md", "HEARTBEAT.md"]
+  - edit: ["MEMORY.md", "HEARTBEAT.md"]
