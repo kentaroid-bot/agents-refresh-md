@@ -1,7 +1,7 @@
 ---
 name: agents-refresh-md-en
 description: >
-  AGENTS.md/IDENTITY/SOUL/USER periodic reload skill to keep context fresh (.md-only v1.1.1). Prevents confusion and forgetting in long sessions. Edit HEARTBEAT.md + add cron (manual tool calls). Lightweight ClawHub distribution without Python scripts. Use when: (1) Long sessions risk personality drift, (2) Avoid /new for human-like memory continuity, (3) Auto-summarize MEMORY/ToDo.
+  AGENTS.md/IDENTITY/SOUL/USER periodic reload skill to keep context fresh (.md-only v1.1.2). Prevents confusion and forgetting in long sessions. Edit HEARTBEAT.md + add cron (manual tool calls). Lightweight ClawHub distribution without Python scripts. Use when: (1) Long sessions risk personality drift, (2) Avoid /new for human-like memory continuity, (3) Auto-summarize MEMORY/ToDo.
 ---
 
 ## 🧠 Purpose (Agent's 3-Layer Memory System! 🐾)
@@ -40,7 +40,7 @@ Use this flexible template! (Status optional as header 🐾)
 ## Creative Seeds 🌱: Idea seeds.
 ```
 
-# AGENTS Refresh Skill (.md-only v1.1.1)
+# AGENTS Refresh Skill (.md-only v1.1.2)
 
 Lightweight version for ClawHub distribution. No Python scripts, manual tool calls.
 
@@ -69,4 +69,4 @@ Lightweight version for ClawHub distribution. No Python scripts, manual tool cal
 - examples.md: Usage examples.
 - Cron details: web_search "OpenClaw cron schema"
 
-**Changes v1.1.1:** Lightweight no-py, direct cron JSON, enhanced manual ops. ClawHub-ready! 🐾
+**Changes v1.1.2:** Lightweight no-py, direct cron JSON, enhanced manual ops. ClawHub-ready! 🐾
