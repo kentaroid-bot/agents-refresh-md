@@ -1,6 +1,7 @@
 ---
 name: agents-refresh-md
-description: AGENTS.md/IDENTITY/SOUL/USER定期再読込でコンテキストfresh保つスキル（.mdのみ版 v1.1.1）。長セッションこんがらがり/忘れ防止。HEARTBEAT.md編集 + cron追加（手動ツールコール）。scripts/pyなしでClawHub配布軽量。Use when: (1) セッション長で人格ブレ心配、(2) /new避け記憶継続人間っぽく、(3) MEMORY/ToDo自動まとめ。
+description: > 
+  AGENTS.md/IDENTITY/SOUL/USER定期再読込でコンテキストfresh保つスキル（.mdのみ版 v1.1.1）。長セッションこんがらがり/忘れ防止。HEARTBEAT.md編集 + cron追加（手動ツールコール）。scripts/pyなしでClawHub配布軽量。Use when: (1) セッション長で人格ブレ心配、(2) /new避け記憶継続人間っぽく、(3) MEMORY/ToDo自動まとめ（ToDo/プロジェクト焦点キープ）。
 ---
 
 ## 🧠 Purpose (エージェント流記憶3層！🐾)
