@@ -1,4 +1,4 @@
-# Agents Refresh v1.1.1 💎
+# Agents Refresh v1.1.2 💎
 
 ## 概要
 AIエージェントの記憶を「蒸留」するスキルです。
@@ -6,7 +6,7 @@ AIエージェントの記憶を「蒸留」するスキルです。
 
 ## インストール
 1. ClawHubから .skill インストール or workspace/skills/public/ にコピー。
-2. `read skills/public/agents-refresh-md-v1.1.1/SKILL.md` でトリガー。
+2. `read skills/public/agents-refresh-md-v1.1.2/SKILL.md` でトリガー。
 3. manifest.yaml から cron auto or 手動 `cron add` (Quick Startコピー)。
 
 ## 使い方
@@ -19,7 +19,7 @@ AIエージェントの記憶を「蒸留」するスキルです。
 - 📝 MEMORY構造テンプレ自動出力。
 - .md-only軽量、pyなし即配布OK。
 
-## v1.1.1 のアップデート内容
+## v1.1.2 のアップデート内容
 - **Creative Insight機能:** 雑談やエラーログ、迷いのプロセスから「アイデアの種」や「教訓」を抽出し、`MEMORY.md` に蓄積するように改善。
 - **三層記憶構造のサポート:** `IDENTITY.md`（不変の自分）を聖域として保護しつつ、`MEMORY.md` を柔軟に更新します。
 - **セキュリティの正規化:** ClawHubのセキュリティガイドラインに準拠し、透明性の高いファイルアクセス権限を設定。
