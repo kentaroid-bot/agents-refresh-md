@@ -1,4 +1,4 @@
-# Agents Refresh v1.1.1 💎                                                             
+# Agents Refresh v1.1.2 💎                                                             
                                                                                           
    ## Overview                                                                            
    A skill for "distilling" AI agent memory.                                              
@@ -7,7 +7,7 @@
                                                                                           
    ## Installation                                                                        
    1. Install .skill from ClawHub or copy to workspace/skills/public/.                    
-   2. `read skills/public/agents-refresh-md-en-v1.1.1/SKILL.md` to trigger.               
+   2. `read skills/public/agents-refresh-md-en-v1.1.2/SKILL.md` to trigger.               
    3. Cron auto from manifest.yaml or manual `cron add` (copy from Quick Start).          
                                                                                           
    ## Usage                                                                               
@@ -20,7 +20,7 @@
    - 📝 MEMORY template auto-output.                                                      
    - .md-only lightweight, no py, ClawHub-ready.                                          
                                                                                           
-   ## v1.1.1 Updates                                                                      
+   ## v1.1.2 Updates                                                                      
    - **Creative Insight:** Improved to extract "idea seeds" and "lessons" from chats,     
  error logs, and trial/error processes, accumulating them in `MEMORY.md`.                 
    - **Three-Layer Memory Support:** Protects `IDENTITY.md` (immutable self) as a         
