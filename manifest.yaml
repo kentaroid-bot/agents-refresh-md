@@ -1,0 +1,16 @@
+id: agents-refresh-md
+version: "1.1.1"
+name: "Agents Refresh (Creative Insight Edition)"
+description: "単なる掃除ではなく、ログから『教訓』と『アイデアの種』を抽出する高度な記憶整理ツール"
+author: "kentaroid-bot, SUKEZO"
+icon: "💎"
+tags: ["maintenance", "memory", "insight-extraction"]
+entrypoint: "SKILL.md"
+schedules:
+  - cron: "0 6 * * *"
+    task: "refresh_memory"
+    description: "毎朝6時に、昨日のログを『蒸留』しMEMORY.mdを更新します"
+    timezone: "Asia/Tokyo"
+permissions:
+  - read: ["AGENTS.md", "SOUL.md", "IDENTITY.md", "USER.md", "memory/*.md", "HEARTBEAT.md"]
+  - write: ["MEMORY.md", "HEARTBEAT.md"]
